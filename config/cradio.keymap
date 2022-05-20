@@ -66,21 +66,21 @@
 		bindings = <
 		&kp Q &kp W &kp F &kp P &kp B						&kp J &kp L &kp U &kp Y &kp P 
 		&kp A &kp R &kp S &kp T &kp G 			        	        &kp K &kp N &kp E &kp I &kp O
-		&kp Z &kp X &kp C &mt LMETA D &kp V				       	&kp M &kp H &mt QMARK CMMA &mt EXCL DOT &mt BSLH FSLH
-          				&mt LSHFT CAPS &to 1  				&to 2 &mt LCTRL SPACE
+		&kp Z &kp X &kp C &mt LWIN D &kp V				       	&kp M &kp H &mt QMARK CMMA &mt EXCL DOT &mt BSLH FSLH
+          				&mt LSHFT CAPS &to EXT  				&to SYM &mt LCTRL SPACE
 		>;
 		};
 
-       		left_layer {
+       		ext_layer {
 		bindings = <
-		&kp NUM_1  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5		&kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 
-		&kp TAB    &kp LC(S)    &kp DQT      &kp PIPE2     &kp HASH 		&kp MINUS &kp EQL  &kp LBKT &kp RBKT  &kp DEL 
+		&kp NUM_1  &kp NUM_2    &kp F5    &kp F11    &kp F12		&kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 
+		&kp ESC    &kp LC(S)    &kp DQT      &kp PIPE2     &kp HASH 		&kp MINUS &kp EQL  &kp LBKT &kp RBKT  &kp DEL 
 		&kp ESC    &kp TILDE 	&kp NON_US_BSLH &kp NON_US_HASH  &kp TILDE2 	&kp MINUS &kp GRAVE &kp LBKT &kp RBKT  &kp DEL 
 					    &mo 1  &kp LGUI  					&kp RGUI &mo 2 
 		>;
 		};
 		
-		right_layer {
+		sym_layer {
 		bindings = <
 		&kp BANG  &kp ATSN &kp HASH  &kp DLLR  &kp PRCT    			&kp CRRT  &kp AMPS &kp KMLT &kp LPRN &kp RPRN 
 		&kp HASH  &kp QMARK  &kp FSLH  &kp COLN  &kp SCLN 			&kp MINUS &kp KP_EQUAL  &kp LBRC  &kp RBRC   &kp BKSP
